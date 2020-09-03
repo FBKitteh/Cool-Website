@@ -100,3 +100,31 @@ img {
     justify-content: center;
     margin-left: 2vw;
 }
+
+/* #region page */
+
+.rappergrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.circle {
+    display: flex;
+    background-color: #114357;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 10vw;
+    box-shadow: 8px 8px 10px 0px #0005;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    transition: .4s all;
+    color: blanchedalmond !important;
+}
+
+.circle:hover {
+    background-color: #b92b27;
+    color: black !important;
+}
+
+/* #endregion page */
